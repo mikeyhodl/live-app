@@ -16,7 +16,7 @@ const routes: Routes = [
     component: MoviesComponent,
   },
   {
-    path: 'pay',
+    path: 'play',
     component: PayComponent,
   },
 ];
