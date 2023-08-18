@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PayComponent } from './pay/pay.component';
 import { MoviesComponent } from './movies/movies.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, PayComponent, MoviesComponent],
+  declarations: [AppComponent, PayComponent, MoviesComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
