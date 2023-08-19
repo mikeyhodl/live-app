@@ -12,9 +12,11 @@ import { SeriesComponent } from './series/series.component';
 import { TrailersComponent } from './trailers/trailers.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SettingsComponent } from './settings/settings.component';
+import { AboutComponent } from './about/about.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
-  declarations: [AppComponent, PayComponent, MoviesComponent, HomeComponent, CartComponent, SeriesComponent, TrailersComponent, ProfileComponent, SettingsComponent],
+  declarations: [AppComponent, PayComponent, MoviesComponent, HomeComponent, CartComponent, SeriesComponent, TrailersComponent, ProfileComponent, SettingsComponent, AboutComponent, SignInComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
