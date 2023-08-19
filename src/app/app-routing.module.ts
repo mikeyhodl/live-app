@@ -11,6 +11,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { MusicComponent } from './music/music.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -53,6 +54,10 @@ const routes: Routes = [
   {
     path: 'wild-n-out',
     component: PayComponent,
+  },
+  {
+    path: 'music',
+    component: MusicComponent,
   },
 ];
 

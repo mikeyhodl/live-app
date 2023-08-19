@@ -16,6 +16,7 @@ import { AboutComponent } from './about/about.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { MusicComponent } from './music/music.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { HeaderComponent } from './header/header.component';
     SettingsComponent,
     AboutComponent,
     SignInComponent,
+    MusicComponent,
   ],
   imports: [
     BrowserModule,

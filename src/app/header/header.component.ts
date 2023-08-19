@@ -40,4 +40,7 @@ export class HeaderComponent {
   navigateToProfile() {
     this.router.navigate(['/profile']);
   }
+  navigateToMusic() {
+    this.router.navigate(['/music']);
+  }
 }
