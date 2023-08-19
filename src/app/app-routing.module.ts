@@ -4,6 +4,7 @@ import { MoviesComponent } from './movies/movies.component';
 import { PayComponent } from './pay/pay.component';
 // import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { SeriesComponent } from './series/series.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -16,7 +17,11 @@ const routes: Routes = [
     component: MoviesComponent,
   },
   {
-    path: 'play',
+    path: 'series',
+    component: SeriesComponent,
+  },
+  {
+    path: 'wild-n-out',
     component: PayComponent,
   },
 ];

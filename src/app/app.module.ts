@@ -7,9 +7,14 @@ import { AppComponent } from './app.component';
 import { PayComponent } from './pay/pay.component';
 import { MoviesComponent } from './movies/movies.component';
 import { HomeComponent } from './home/home.component';
+import { CartComponent } from './cart/cart.component';
+import { SeriesComponent } from './series/series.component';
+import { TrailersComponent } from './trailers/trailers.component';
+import { ProfileComponent } from './profile/profile.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
-  declarations: [AppComponent, PayComponent, MoviesComponent, HomeComponent],
+  declarations: [AppComponent, PayComponent, MoviesComponent, HomeComponent, CartComponent, SeriesComponent, TrailersComponent, ProfileComponent, SettingsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
